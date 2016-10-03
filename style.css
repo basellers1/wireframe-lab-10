@@ -1,13 +1,50 @@
 *{
 margin: 0px;
 }
+#logo{
+  float: left;
+}
 nav, li {
   display: inline-table;
   padding: 30px;
 }
-.mainbox {
+#mainbox {
   display: inline-block;
+}
+body {
+  font-family: helvetica;
+}
+a{
+  text-decoration: none;
+  color: #888;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.inner {
+  float: left;
 }
 p {
   display: inline;
+}
+article {
+  overflow: scroll;
+  margin-left: 50%;
+}
+button{
+  background: black;
+  color: white;
+  margin-top: 20px;
+  height: 30px;
+}
+section{
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  clear: both;
+  background: green;
+  height: 150px;
 }
