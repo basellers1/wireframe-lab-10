@@ -1,0 +1,13 @@
+*{
+margin: 0px;
+}
+nav, li {
+  display: inline-table;
+  padding: 30px;
+}
+.mainbox {
+  display: inline-block;
+}
+p {
+  display: inline;
+}
